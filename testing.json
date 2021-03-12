@@ -1,0 +1,130 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["Who is the founder of krce?",
+                "who is the principal of krce?",
+                "who is the executive director of krce?"
+            ],
+            "responses": ["DR.K.Ramakrishnan", "Dr.D.Srinivasan", "Dr.S.Kuppusamy"]
+        },
+        {
+            "tag": "status",
+            "patterns": ["is the krce is under anna university?", "Is the krce is autonomous?"],
+            "responses": ["no", "yes"]
+        },
+        {
+            "tag": "about",
+            "patterns": ["When was the krce established?", "where is the krce located?", "Is transport facility available?", "college ownership"],
+            "responses": [2008, "samayapuram", "yes", "private"]
+        },
+        {
+            "tag": "hostel",
+            "patterns": ["Is there a hostel in krce?", "is there security in krce?", "hostel fees", "Is wifi available"],
+            "responses": ["yes", "available", 20000]
+        },
+        {
+            "tag": "placement",
+            "patterns": {
+                "placment": "is placement available in krce?",
+                "company": "top recruiting companies of krce"
+            },
+            "responses": {
+                "placement": "available",
+                "company": ["wipro", "tcs", "infosys", "zoho"]
+            }
+        },
+        {
+            "tag": "courses",
+            "patterns": {
+                "ug": "How many under graduate studies are there in krce?",
+                "pg": "How many post graduate studies are there in krce?"
+            },
+            "responses": {
+                "ug": ["CSE", "ECE", "EEE", "Mech", "IT", "AI", "Computer business system"],
+                "pg": ["MBA", "ME"]
+            }
+        },
+        {
+            "tag": "event",
+            "patterns": ["Is krce conduct cultural event?", "what is the name of cultural event?"],
+            "responses": ["yes", ["Talentia", "enthusia", "annual_day"]]
+        },
+        {
+            "tag": "lab",
+            "patterns": ["How many labs are there in krce?", "Is there TLC lab in krce?"],
+            "responses": [18, "yes"]
+        },
+        {
+            "tag": "out",
+            "patterns": {
+                "canteen": "Is there a canteen in krce?",
+                "gym": "Is there a gym in krce?",
+                "ATM": "Is there a ATM in krce?",
+                "vehicle": "Is there a vehicle stands in krce?",
+                "ground": ["is there a ground in krce?", "is there a basketball ground in krce?", "is there a volleyball ground in krce?"]
+            },
+            "responses": {
+                "canteen": "yes",
+                "gym": "yes",
+                "ATM": "yes",
+                "vehicle": "yes",
+                "ground": "yes"
+            }
+        },
+        {
+            "tag": "in",
+            "patterns": {
+                "auditorium": ["is there a Auditorium in krce?", "Is there a Conference hall in krce?"],
+                "library": "Is there library is available?"
+            },
+            "responses": {
+                "auditorium": "yes",
+                "library": "available"
+            }
+        },
+        {
+            "tag": "extra",
+            "patterns": {
+                "teach": "Extra skills teached to students?",
+                "visit": "Students are allowed to visit"
+            },
+            "responses": {
+                "teach": ["Aptitude", "communication"],
+                "visit": ["workshop", "seminar", "industrial_visit"]
+            }
+        }
+    ]
+
+}
